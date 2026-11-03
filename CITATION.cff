@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the accompanying manuscript."
+title: "From Evidence Retrieval to Verifiable Answers: Evaluating Evidence Sufficiency, Faithfulness, and Abstention in Insurance-Policy RAG"
+type: software
+authors:
+  - family-names: Memeti
+    given-names: Ermira
+version: 1.0.0
+date-released: 2026-11-03
+license: MIT
+keywords:
+  - retrieval-augmented generation
+  - insurance policy
+  - evidence sufficiency
+  - abstention
+  - human evaluation

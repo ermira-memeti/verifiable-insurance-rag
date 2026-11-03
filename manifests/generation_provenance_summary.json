@@ -1,0 +1,18 @@
+{
+  "study_id": "paper3_insurance_rag",
+  "frozen_pilot_version": "PILOT_V2_FROZEN",
+  "model": "gpt-6-luna",
+  "api": "OpenAI Responses API",
+  "prompt_ids": [
+    "G1_STANDARD_RAG_V1",
+    "G2_EVIDENCE_AWARE_RAG_V4"
+  ],
+  "questions": 12,
+  "evidence_scenarios": 60,
+  "completed_answers": 120,
+  "generation_date_utc": "2026-10-28",
+  "python_version_preserved": "3.11.9",
+  "openai_requirement": "openai>=2.0.0",
+  "exact_openai_sdk_build_preserved": false,
+  "notes": "Provider defaults governed unspecified generation settings. Hosted-model replay is not guaranteed to reproduce identical outputs."
+}

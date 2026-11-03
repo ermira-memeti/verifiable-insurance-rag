@@ -1,0 +1,4 @@
+Analysis,Unit,G1 Alignment,G2 Alignment,Difference,G2 Better Discordant,G1 Better Discordant,p-value,95% CI lower,95% CI upper
+Evidence-case paired McNemar exact,60 evidence cases,0.8,0.95,0.1499999999999999,12,3,0.03515625,,
+Question-level sign test,12 questions (5 conditions/question),0.8000000000000002,0.9500000000000001,0.15,7,1,0.0703125,0.0,0.2833333333333333
+Question-level Wilcoxon signed-rank,12 questions (5 conditions/question),0.8000000000000002,0.9500000000000001,0.15,7,1,0.109375,0.0,0.2833333333333333

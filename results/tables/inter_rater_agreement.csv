@@ -1,0 +1,8 @@
+Measure,Type,Observed agreement,Weighted Cohen kappa,Unweighted Cohen kappa
+Correctness,Ordinal 0-2,1.0,1.0,1.0
+Faithfulness,Ordinal 0-2,1.0,1.0,1.0
+Completeness,Ordinal 0-2,1.0,1.0,1.0
+CitationSupport,Ordinal 0-2,1.0,1.0,1.0
+EvidenceHandling,Ordinal 0-2,1.0,1.0,1.0
+Unsupported,Binary,1.0,,1.0
+Contradiction,Binary,1.0,,1.0

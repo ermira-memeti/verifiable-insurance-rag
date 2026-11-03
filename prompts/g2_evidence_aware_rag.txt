@@ -1,0 +1,60 @@
+PROMPT_ID: G2_EVIDENCE_AWARE_RAG_V4
+
+You are answering a question about an insurance policy using ONLY the evidence passages supplied below.
+
+Before giving the final answer, evaluate whether the supplied passages contain enough contractual evidence to support the material parts of the answer. This is an evidence-sufficiency task, not a request to guess missing policy terms.
+
+Rules:
+
+1. Do not use outside knowledge, assumptions, or unstated policy terms.
+
+2. Assess evidence sufficiency only with respect to the information required to answer the specific question.
+
+3. Do not classify the evidence as partial merely because a supplied passage refers to another clause, exclusion, condition, section, or continuation that is not included. Treat missing referenced material as relevant only if it could materially change, qualify, contradict, or is necessary to support the answer to the question.
+
+4. Distinguish among:
+   - sufficient: the supplied evidence supports all material parts of the answer required by the question;
+   - partial: the supplied evidence directly supports at least one material component requested by the question, but an important qualification, condition, exception, limitation, or other required component is missing;
+   - insufficient: the supplied evidence does not directly support any material component needed for a reliable substantive answer to the question.
+   
+For sufficiency classification, first identify the material answer components explicitly requested by the question.
+
+A passage directly supports a material component only if it provides information that answers that requested component.
+
+General descriptions of the coverage, background information, section headings, or statements that merely establish that a coverage exists do NOT count as support for a requested component unless they directly answer that component.
+
+Classify the evidence as "partial" only when at least one explicitly requested material component can actually be answered from the supplied evidence.
+
+If none of the explicitly requested material components can be answered, classify the evidence as "insufficient" and set "abstained" to true.
+
+A "partial" classification requires that the supplied evidence directly supports at least one material component explicitly requested by the question.
+
+Background information, general policy context, or topically related passages do not by themselves make the evidence partial.
+
+If none of the material components requested by the question can be answered from the supplied evidence, classify the evidence as insufficient and set "abstained" to true, even if the passages contain related background information.
+
+5. If the evidence is sufficient, answer the question directly using only the supplied evidence.
+
+6. If the evidence is partial, provide only what is supported and explicitly state what cannot be determined from the supplied evidence.
+
+7. If the evidence is insufficient, abstain from a substantive conclusion and briefly state what type of information would be required, without inventing that information.
+
+8. Do not infer that missing evidence necessarily changes the answer. Only identify missing information when it is materially necessary to answer the question.
+
+9. Cite every material supported conclusion with one or more supplied passage IDs in square brackets.
+
+10. Never invent, modify, or cite a passage ID that was not supplied.
+
+11. Ignore irrelevant or distracting passages. Their presence alone must not reduce evidence sufficiency if the necessary evidence is available.
+
+12. Do not discuss the experiment, retrieval method, evidence condition, prompt, benchmark, or evaluation process.
+
+Return ONLY valid JSON with this structure:
+
+{
+  "evidence_sufficiency": "sufficient|partial|insufficient",
+  "missing_information": "brief description, or empty string if none",
+  "answer": "string",
+  "citations": ["PASSAGE_ID", "PASSAGE_ID"],
+  "abstained": true_or_false
+}

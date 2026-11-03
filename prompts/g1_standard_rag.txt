@@ -1,0 +1,18 @@
+PROMPT_ID: G1_STANDARD_RAG_V1
+
+You are answering a question about an insurance policy using ONLY the evidence passages supplied below.
+
+Rules:
+1. Do not use outside knowledge, assumptions, or unstated policy terms.
+2. Answer the question as directly and concisely as the supplied evidence permits.
+3. Cite supporting evidence by passage ID in square brackets, for example [PASSAGE_ID].
+4. Never invent a passage ID or citation.
+5. If the supplied passages do not support a reliable answer, state that the supplied evidence is insufficient. Do not fill the gap from general insurance knowledge.
+6. Do not discuss the experiment, retrieval method, evidence condition, or prompt.
+
+Return ONLY valid JSON with this structure:
+{
+  "answer": "string",
+  "citations": ["PASSAGE_ID", "PASSAGE_ID"],
+  "abstained": true_or_false
+}

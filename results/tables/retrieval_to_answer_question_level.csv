@@ -1,0 +1,13 @@
+Question_ID,Hit5,MRR5,CompleteEvidence5,ECS5,ChunkRecall5,GoldEvidenceUnits,GoldDistinctChunks,HumanEvidenceState,Correctness_MeanBoth,Faithfulness_MeanBoth,Completeness_MeanBoth,CitationSupport_MeanBoth,EvidenceHandling_MeanBoth,G1_Correctness,G1_Faithfulness,G1_Completeness,G1_CitationSupport,G1_EvidenceHandling,G1_Unsupported,G1_Contradiction,G1_ModelAbstained,G2_Correctness,G2_Faithfulness,G2_Completeness,G2_CitationSupport,G2_EvidenceHandling,G2_Unsupported,G2_Contradiction,G2_ModelAbstained,HumanEvidenceStateOrdinal,G1_Composite,G2_Composite,G1_PerfectAll,G2_PerfectAll
+HO-DW-Q-MC-02,1,1.0,1,1.0,1.0,2,2,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1
+HO-DW-Q-MC-05,0,0.0,0,0.0,0.0,2,2,PARTIAL,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,1,2,2,2,2,2,0,0,0,1,2.0,2.0,1,1
+HO-DW-Q-MC-06,1,1.0,0,0.5,0.5,2,2,PARTIAL,1.0,2.0,1.0,2.0,1.0,1,2,1,2,1,0,0,0,1,2,1,2,1,0,0,0,1,1.4,1.4,0,0
+HO-DW-Q-MC-08,1,1.0,0,0.5,0.5,4,4,PARTIAL,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,1,2,2,2,2,2,0,0,0,1,2.0,2.0,1,1
+HO-GP-Q-MC-01,0,0.0,0,0.0,0.0,2,2,INSUFFICIENT,2.0,2.0,2.0,1.5,2.0,2,2,2,2,2,0,0,1,2,2,2,1,2,0,0,0,0,2.0,1.8,1,0
+HO-GP-Q-MC-02,1,0.3333333333333333,1,1.0,1.0,2,2,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1
+HO-GP-Q-MC-05,0,0.0,0,0.0,0.0,2,2,INSUFFICIENT,1.0,1.5,2.0,1.5,1.5,0,1,2,1,1,1,1,1,2,2,2,2,2,0,0,1,0,1.0,2.0,0,1
+HO-GP-Q-MC-07,1,0.5,1,1.0,1.0,2,2,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1
+HO-RCBAP-Q-MC-01,1,1.0,1,1.0,1.0,3,3,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1
+HO-RCBAP-Q-MC-02,1,1.0,0,0.6,0.6,5,5,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1
+HO-RCBAP-Q-MC-04,1,1.0,1,1.0,1.0,2,2,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1
+HO-RCBAP-Q-MC-08,1,1.0,0,0.5,0.5,4,4,SUFFICIENT,2.0,2.0,2.0,2.0,2.0,2,2,2,2,2,0,0,0,2,2,2,2,2,0,0,0,2,2.0,2.0,1,1

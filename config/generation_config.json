@@ -1,0 +1,19 @@
+{
+  "study_component": "Paper 3 frozen evaluation generation",
+  "pilot_version": "PILOT_V2_FROZEN",
+  "api": "OpenAI Responses API",
+  "model": "gpt-6-luna",
+  "methods": [
+    "G1",
+    "G2"
+  ],
+  "input_file": "data/pilot/pilot_conditions.jsonl",
+  "prompt_files": {
+    "G1": "prompts/g1_standard_rag.txt",
+    "G2": "prompts/g2_evidence_aware_rag.txt"
+  },
+  "max_output_chars_for_parse_recovery": 50000,
+  "retry_attempts": 3,
+  "retry_base_seconds": 2,
+  "notes": "Model and prompts must be frozen before the full experiment. The pilot may be used to debug implementation, not to tune decisions against final gold outcomes. API generation is controlled but not guaranteed bit-for-bit deterministic."
+}

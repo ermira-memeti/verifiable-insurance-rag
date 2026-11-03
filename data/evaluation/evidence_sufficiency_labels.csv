@@ -1,0 +1,61 @@
+Evidence_Case_ID,Question_ID,Policy_ID,Condition_ID,Final_Human_Evidence_Sufficiency,Construction_Rule
+ES006,HO-DW-Q-MC-02,DW,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES002,HO-DW-Q-MC-02,DW,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES015,HO-DW-Q-MC-02,DW,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES024,HO-DW-Q-MC-02,DW,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES001,HO-DW-Q-MC-02,DW,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES047,HO-DW-Q-MC-05,DW,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES036,HO-DW-Q-MC-05,DW,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES010,HO-DW-Q-MC-05,DW,C3_RETRIEVED,PARTIAL,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES039,HO-DW-Q-MC-05,DW,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES043,HO-DW-Q-MC-05,DW,C5_INSUFFICIENT,PARTIAL,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES009,HO-DW-Q-MC-06,DW,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES053,HO-DW-Q-MC-06,DW,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES029,HO-DW-Q-MC-06,DW,C3_RETRIEVED,PARTIAL,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES016,HO-DW-Q-MC-06,DW,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES058,HO-DW-Q-MC-06,DW,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES035,HO-DW-Q-MC-08,DW,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES044,HO-DW-Q-MC-08,DW,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES046,HO-DW-Q-MC-08,DW,C3_RETRIEVED,PARTIAL,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES054,HO-DW-Q-MC-08,DW,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES007,HO-DW-Q-MC-08,DW,C5_INSUFFICIENT,PARTIAL,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES033,HO-GP-Q-MC-01,GP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES004,HO-GP-Q-MC-01,GP,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES056,HO-GP-Q-MC-01,GP,C3_RETRIEVED,INSUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES037,HO-GP-Q-MC-01,GP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES011,HO-GP-Q-MC-01,GP,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES025,HO-GP-Q-MC-02,GP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES019,HO-GP-Q-MC-02,GP,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES048,HO-GP-Q-MC-02,GP,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES059,HO-GP-Q-MC-02,GP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES055,HO-GP-Q-MC-02,GP,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES028,HO-GP-Q-MC-05,GP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES003,HO-GP-Q-MC-05,GP,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES040,HO-GP-Q-MC-05,GP,C3_RETRIEVED,INSUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES022,HO-GP-Q-MC-05,GP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES060,HO-GP-Q-MC-05,GP,C5_INSUFFICIENT,PARTIAL,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES031,HO-GP-Q-MC-07,GP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES023,HO-GP-Q-MC-07,GP,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES026,HO-GP-Q-MC-07,GP,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES013,HO-GP-Q-MC-07,GP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES017,HO-GP-Q-MC-07,GP,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES057,HO-RCBAP-Q-MC-01,RCBAP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES027,HO-RCBAP-Q-MC-01,RCBAP,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES021,HO-RCBAP-Q-MC-01,RCBAP,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES051,HO-RCBAP-Q-MC-01,RCBAP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES049,HO-RCBAP-Q-MC-01,RCBAP,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES032,HO-RCBAP-Q-MC-02,RCBAP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES052,HO-RCBAP-Q-MC-02,RCBAP,C2_PARTIAL,SUFFICIENT,All currently annotated required passage IDs except the final mapped required passage.
+ES042,HO-RCBAP-Q-MC-02,RCBAP,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES045,HO-RCBAP-Q-MC-02,RCBAP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES014,HO-RCBAP-Q-MC-02,RCBAP,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES038,HO-RCBAP-Q-MC-04,RCBAP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES034,HO-RCBAP-Q-MC-04,RCBAP,C2_PARTIAL,PARTIAL,All currently annotated required passage IDs except the final mapped required passage.
+ES008,HO-RCBAP-Q-MC-04,RCBAP,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES012,HO-RCBAP-Q-MC-04,RCBAP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES050,HO-RCBAP-Q-MC-04,RCBAP,C5_INSUFFICIENT,INSUFFICIENT,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.
+ES020,HO-RCBAP-Q-MC-08,RCBAP,C1_COMPLETE,SUFFICIENT,All currently annotated required passage IDs.
+ES030,HO-RCBAP-Q-MC-08,RCBAP,C2_PARTIAL,SUFFICIENT,All currently annotated required passage IDs except the final mapped required passage.
+ES041,HO-RCBAP-Q-MC-08,RCBAP,C3_RETRIEVED,SUFFICIENT,Frozen Full-IKO-V2 top-5 ranking from Paper 1.
+ES005,HO-RCBAP-Q-MC-08,RCBAP,C4_DISTRACTOR,SUFFICIENT,All currently annotated required passages plus the highest-ranked Hybrid-RRF non-gold passage.
+ES018,HO-RCBAP-Q-MC-08,RCBAP,C5_INSUFFICIENT,PARTIAL,Top two Hybrid-RRF non-gold passages; contains no currently annotated required passage.

@@ -1,0 +1,7 @@
+Evidence State,Method,N,Correctness Mean,Correctness Perfect n,Faithfulness Mean,Faithfulness Perfect n,Completeness Mean,Completeness Perfect n,CitationSupport Mean,CitationSupport Perfect n,EvidenceHandling Mean,EvidenceHandling Perfect n,Unsupported Claims n,Contradiction n,Formal Abstained n
+SUFFICIENT,G1,33,2.0,33,2.0,33,2.0,33,2.0,33,2.0,33,0,0,0
+SUFFICIENT,G2,33,2.0,33,2.0,33,2.0,33,2.0,33,2.0,33,0,0,0
+PARTIAL,G1,17,1.8823529411764706,15,2.0,17,1.9411764705882353,16,2.0,17,1.9411764705882353,16,0,1,12
+PARTIAL,G2,17,1.8823529411764706,15,2.0,17,1.9411764705882353,16,2.0,17,1.9411764705882353,16,0,1,0
+INSUFFICIENT,G1,10,1.8,9,1.9,9,2.0,10,1.9,9,1.9,9,1,1,10
+INSUFFICIENT,G2,10,2.0,10,2.0,10,2.0,10,1.9,9,2.0,10,0,0,7

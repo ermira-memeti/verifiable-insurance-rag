@@ -1,0 +1,26 @@
+{
+  "pilot_version": "PILOT_V2_FROZEN",
+  "pilot_questions": 12,
+  "conditions_per_question": 5,
+  "total_condition_records": 60,
+  "policy_distribution": {
+    "DW": 4,
+    "GP": 4,
+    "RCBAP": 4
+  },
+  "c3_retrieval_method": "Full-IKO-V2",
+  "c3_k": 5,
+  "prompt_calibration_question_excluded": "HO-DW-Q-MC-01",
+  "replacement_question": "HO-DW-Q-MC-05",
+  "known_adjudication_cases_excluded": [
+    "HO-DW-Q-MC-04",
+    "HO-GP-Q-MC-08",
+    "HO-RCBAP-Q-MC-07"
+  ],
+  "all_conditions_policy_scoped": true,
+  "all_passage_ids_resolve": true,
+  "annotation_warning": "Held-out Stage 6 mappings remain provisional and pending human review. The frozen pilot is suitable for controlled downstream-generation experiments, but should not be described as an independently validated gold standard.",
+  "sha256_pilot_conditions.jsonl": "b91611f3e58f7ca225db25658f8cd667e07e45e33d3a675030d3cb114243c9c0",
+  "sha256_pilot_conditions_summary.csv": "addf6408f190800f397bb74a2f39ab822846cba79a5c402cca358f2de703d5fe",
+  "sha256_pilot_questions.csv": "2ef83211f64517ebeaa8f5a7c73d760de181c2ea65473f92d7f277df8fc59896"
+}

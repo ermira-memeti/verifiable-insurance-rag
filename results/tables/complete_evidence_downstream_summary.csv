@@ -1,0 +1,5 @@
+Group,N questions,Human sufficient n,Human partial n,Human insufficient n,System,Mean composite answer score (0-2),Perfect-all-metrics n,Perfect-all-metrics rate
+Complete Evidence@5 = 0,7,2,3,2,G1,1.7714285714285716,5,0.7142857142857143
+Complete Evidence@5 = 0,7,2,3,2,G2,1.8857142857142857,5,0.7142857142857143
+Complete Evidence@5 = 1,5,5,0,0,G1,2.0,5,1.0
+Complete Evidence@5 = 1,5,5,0,0,G2,2.0,5,1.0
